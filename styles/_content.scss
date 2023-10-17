@@ -1,0 +1,83 @@
+/* Main Container */
+.content-new-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content-new-cta .inner-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.content-new-cta .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px;
+}
+
+/* Main heading */
+.content-new-cta .main-heading {
+    width: 448px;
+    height: 48px;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 20px; 
+}
+
+/* Description */
+.content-new-cta .description {
+    width: 448px;
+    height: 128px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px; 
+}
+
+/* Button */
+.content-new-cta .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+    width: 177px;
+    height: 44px;
+    background: #6F4E37;
+    border: 1px solid #3C2A1E;
+    border-radius: 5px;
+}
+
+/* Button text */
+.content-new-cta .btn-text {
+    width: 147px;
+    height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.content-new-cta .photo {
+    width: 622px;
+    height: 415px;
+    background: url("/images/voo-qqq-RSYBi_1fhfM-unsplash\ 1.jpg");
+    background-repeat: no-repeat;  
+    background-size: contain;
+}
+
+.content-new-cta .photo1 {
+    width: 622px;
+    height: 415px;
+    background: url("/images/adrian-sulyok-sczNLg6rrhQ-unsplash\ 1.jpg");
+    background-repeat: no-repeat;  
+    background-size: contain;
+}
