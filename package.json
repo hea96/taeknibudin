@@ -1,0 +1,30 @@
+{
+  "name": "taeknibudin",
+  "version": "1.0.0",
+  "description": "hópverkefni 1 í vefforritun 1 2023, þar sem sett er upp útlit af vefsíðu fyrir tæknibúðina.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "sass styles.scss styles.css",
+    "sass-watch": "sass --watch styles.scss styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss ./**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hea96/taeknibudin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hea96/taeknibudin/issues"
+  },
+  "homepage": "https://github.com/hea96/taeknibudin#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.1",
+    "sass": "^1.69.3",
+    "stylelint": "^15.10.3"
+  }
+}
