@@ -1,0 +1,38 @@
+.featured-products2 {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    width: 100%;
+    height: 674px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: url("/images/Beigebackground.jpg");
+    background-repeat: no-repeat;  
+    background-size: 1640px 520px;
+    background-position: center; 
+    margin-bottom: -140px;
+}
+
+.products2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 15px;
+    gap: 30px;
+}
+
+.product2 {
+    flex: 1 0 21%;
+    margin: 10px;
+    text-align: left;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.product2 img {
+    max-width: 100%;
+    height: auto;
+}
