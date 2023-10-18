@@ -1,0 +1,82 @@
+header .mobile-controls {
+    display: none;
+    align-items: center; 
+    gap: 20px; 
+}
+
+
+@media (max-width: 501px) {
+    
+    header .search, 
+    header .categories,
+    header .cart {
+        display: none ;
+    }
+
+    
+    header .mobile-controls {
+        display: flex;
+        cursor: pointer;
+    }
+
+    header .hamburger {
+        width: 24px;
+        height: 20px;
+        fill: currentColor; 
+    }
+
+    header .cart-container .cart-icon {
+        background-image: url("/images/Cart\ icon.svg");
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin-right: 20px;
+    }
+
+    header .cart-container .cart-count {
+        background: #6F4E37;
+        padding: 3px 7px;
+        border-radius: 50%;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FEFEFE;
+        position: absolute;
+        top: 30px;    
+        right: 60px; 
+        z-index: 1;
+    }
+
+    section.content .inner-container {
+        flex-direction: column; 
+    }
+
+    section.content .photo,
+    section.content .photo1 {
+        margin: 10px 0; 
+    }
+
+    
+    .products, .products2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .product, .product2 {
+        flex-basis: 100%; 
+        margin: 10px 0;
+    }
+
+    
+    section.promo h2 {
+        font-size: 2rem; 
+        text-align: center;
+    }
+
+    section.content .description {
+        text-align: center;
+        padding: 0 10px; 
+    }
+}
