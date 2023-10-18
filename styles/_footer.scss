@@ -1,0 +1,36 @@
+$main-color: rgb(60, 42, 30);
+$bottom-accent-color: rgb(85, 60, 42);
+$top-accent-color: rgb(183, 165, 153);
+$spacing: 1rem;
+
+footer {
+    background-color: $main-color;
+    color: white;
+    display: grid;
+    padding: 4px;
+    grid-template-columns: repeat(3, 1fr);
+    .footer-section {
+        grid-column: span 1;
+    }
+    .footer-bottom {
+        display: flex;
+        grid-column: span 3;
+        justify-content: center;
+        border-top: 2px solid $bottom-accent-color;
+        margin: auto;
+        width: 80%;
+    }
+    
+    h2 {
+        border-bottom: 2px solid $top-accent-color;
+        padding-top: $spacing;
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+
+}

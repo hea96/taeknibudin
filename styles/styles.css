@@ -104,7 +104,7 @@ header .hamburger {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body, html {
@@ -435,6 +435,33 @@ header .mobile-controls {
     text-align: center;
     padding: 0 10px;
   }
+}
+footer {
+  background-color: rgb(60, 42, 30);
+  color: white;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: repeat(3, 1fr);
+}
+footer .footer-section {
+  grid-column: span 1;
+}
+footer .footer-bottom {
+  display: flex;
+  grid-column: span 3;
+  justify-content: center;
+  border-top: 2px solid rgb(85, 60, 42);
+  margin: auto;
+  width: 80%;
+}
+footer h2 {
+  border-bottom: 2px solid rgb(183, 165, 153);
+  padding-top: 1rem;
+  width: 80%;
+  font-size: 1rem;
+}
+footer p {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */
