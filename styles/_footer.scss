@@ -1,4 +1,4 @@
-$main-color: rgb(60, 42, 30);
+$main-color: rgb(50, 36, 26);
 $bottom-accent-color: rgb(85, 60, 42);
 $top-accent-color: rgb(183, 165, 153);
 $spacing: 1rem;
@@ -8,29 +8,56 @@ footer {
     color: white;
     display: grid;
     padding: 4px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "1"
+        "2"
+        "3"
+        "4";
+    gap: 5px;    
     .footer-section {
         grid-column: span 1;
+        margin-bottom: 14px;
+        margin-top: 28px;
+        margin-right: 20px;
     }
     .footer-bottom {
         display: flex;
-        grid-column: span 3;
         justify-content: center;
         border-top: 2px solid $bottom-accent-color;
         margin: auto;
-        width: 80%;
+        width: 100%;
+        max-width: 1000px;
+        p {
+            padding: 10px;
+        }
     }
     
     h2 {
         border-bottom: 2px solid $top-accent-color;
-        padding-top: $spacing;
-        width: 80%;
-        font-size: 1rem;
+        font-size: 28px;
+        margin-bottom: 10px;
+        margin-top: 1px;
+        font-weight: normal;
     }
 
     p {
         font-size: 14px;
+        margin: 1px;
+        padding: 1px;
     }
 
 
+}
+
+@media (min-width: 540px) {
+    footer {
+        grid-template-areas:
+        "1 2 3"
+        "4 4 4";   
+    }
+
+    .footer-bottom {
+        grid-column: span 3;
+    }
+    
 }
