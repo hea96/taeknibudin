@@ -493,6 +493,7 @@ footer p {
 }
 .vorulisti-content .products {
   padding: 0;
+  padding-top: 25px;
 }
 
 .filters {
