@@ -437,31 +437,97 @@ header .mobile-controls {
   }
 }
 footer {
-  background-color: rgb(60, 42, 30);
+  background-color: rgb(50, 36, 26);
   color: white;
   display: grid;
   padding: 4px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "1" "2" "3" "4";
+  gap: 5px;
 }
 footer .footer-section {
   grid-column: span 1;
+  margin-bottom: 14px;
+  margin-top: 28px;
+  margin-right: 20px;
 }
 footer .footer-bottom {
   display: flex;
-  grid-column: span 3;
   justify-content: center;
   border-top: 2px solid rgb(85, 60, 42);
   margin: auto;
-  width: 80%;
+  width: 100%;
+  max-width: 1000px;
+}
+footer .footer-bottom p {
+  padding: 10px;
 }
 footer h2 {
   border-bottom: 2px solid rgb(183, 165, 153);
-  padding-top: 1rem;
-  width: 80%;
-  font-size: 1rem;
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 1px;
+  font-weight: normal;
 }
 footer p {
   font-size: 14px;
+  margin: 1px;
+  padding: 1px;
+}
+
+@media (min-width: 540px) {
+  footer {
+    grid-template-areas: "1 2 3" "4 4 4";
+  }
+  .footer-bottom {
+    grid-column: span 3;
+  }
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-display: swap;
+  src: url(./fonts/Lora-VariableFont_wght.ttf) format("woff");
+}
+.vorulisti-content {
+  background-color: rgb(225, 206, 194);
+}
+.vorulisti-content .products {
+  padding: 0;
+  padding-top: 25px;
+}
+
+.filters {
+  margin-bottom: 28px;
+  margin-left: 10px;
+}
+.filters h3 {
+  margin: 0;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.filters h1 {
+  margin-bottom: 40px;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.filters .filter-buttons button {
+  background-color: rgb(225, 206, 194);
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
 }
 
 /*# sourceMappingURL=styles.css.map */
