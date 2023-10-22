@@ -1,4 +1,4 @@
-/* Main Container */
+
 .content-new-cta {
     display: flex;
     justify-content: center;
@@ -11,7 +11,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: -150px;
+    margin-top: -230px;
+    margin-bottom: 80px;
 }
 
 .content-new-cta .text-container {
@@ -19,10 +20,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 40px;
+    margin: 20px;
+    margin-top: -40px;
 }
 
-/* Main heading */
+.content-new-cta .inner-container2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+
+.content-new-cta .text-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    margin-top: -110px;
+}
+
+
 .content-new-cta .main-heading {
     width: 448px;
     height: 48px;
@@ -32,7 +51,7 @@
     margin-bottom: 20px; 
 }
 
-/* Description */
+
 .content-new-cta .description {
     width: 448px;
     height: 128px;
@@ -42,24 +61,23 @@
     margin-bottom: 20px; 
 }
 
-/* Button */
+
 .content-new-cta .btn {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;         
+    justify-content: center;
     padding: 10px 15px;
     gap: 10px;
-    width: 177px;
-    height: 44px;
+    width: 170px;
+    height: 24px;
     background: #6F4E37;
     border: 1px solid #3C2A1E;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
 /* Button text */
 .content-new-cta .btn-text {
-    width: 147px;
-    height: 24px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -68,17 +86,18 @@
 }
 
 .content-new-cta .photo {
-    width: 622px;
-    height: 415px;
+    width: 500px;
+    height: 300px;
     background: url("/images/voo-qqq-RSYBi_1fhfM-unsplash\ 1.jpg");
     background-repeat: no-repeat;  
     background-size: contain;
 }
 
 .content-new-cta .photo1 {
-    width: 622px;
-    height: 415px;
+    width: 500px;
+    height: 300px;
     background: url("/images/adrian-sulyok-sczNLg6rrhQ-unsplash\ 1.jpg");
     background-repeat: no-repeat;  
     background-size: contain;
+    margin-bottom: 80px;
 }
