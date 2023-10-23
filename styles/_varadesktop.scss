@@ -1,0 +1,663 @@
+.varadesktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .varadesktop .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 2068px;
+    position: relative;
+  }
+  
+  .varadesktop .page-content {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1962px;
+    align-items: flex-start;
+    position: absolute;
+    top: 106px;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .varadesktop .product-content {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 486px;
+  }
+  
+  .varadesktop .text-wrapper {
+    position: absolute;
+    width: 686px;
+    top: -1px;
+    left: 734px;
+    font-family: "Lato", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 80px;
+    white-space: nowrap;
+  }
+  
+  .varadesktop .alexandre-debieve {
+    position: absolute;
+    width: 690px;
+    height: 463px;
+    top: 0;
+    left: 15px;
+    object-fit: cover;
+  }
+  
+  .varadesktop .tags {
+    width: 300px;
+    height: 39px;
+    position: absolute;
+    top: 91px;
+    left: 734px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .varadesktop .new {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 5px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #e1cec2;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .varadesktop .text-wrapper-2 {
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: #000000;
+    letter-spacing: var(--body-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .varadesktop .p {
+    position: absolute;
+    width: 685px;
+    top: 152px;
+    left: 735px;
+    font-family: var(--large-body-font-family);
+    font-weight: var(--large-body-font-weight);
+    color: #000000;
+    font-size: var(--large-body-font-size);
+    letter-spacing: var(--large-body-letter-spacing);
+    line-height: var(--large-body-line-height);
+    font-style: var(--large-body-font-style);
+  }
+  
+  .varadesktop .price {
+    position: absolute;
+    width: 330px;
+    height: 39px;
+    top: 399px;
+    left: 735px;
+  }
+  
+  .varadesktop .text-wrapper-3 {
+    position: absolute;
+    width: 289px;
+    top: -1px;
+    left: 3px;
+    font-family: "Lato", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .varadesktop .button {
+    width: 330px;
+    position: absolute;
+    top: 397px;
+    left: 1095px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #fefefe;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #6f4e37;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .varadesktop .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Lato", Helvetica;
+    font-weight: 700;
+    color: #3c2a1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .varadesktop .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 60px 255px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .varadesktop .eiginleikar {
+    position: relative;
+    width: 930px;
+    margin-top: -1px;
+    font-family: "Lato", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  
+  .varadesktop .span {
+    font-weight: 700;
+    line-height: 48px;
+  }
+  
+  .varadesktop .text-wrapper-5 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  
+  .varadesktop .text-wrapper-6 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  
+  .varadesktop .text-wrapper-7 {
+    font-size: var(--large-body-font-size);
+    line-height: var(--large-body-line-height);
+    font-family: var(--large-body-font-family);
+    font-style: var(--large-body-font-style);
+    font-weight: var(--large-body-font-weight);
+    letter-spacing: var(--large-body-letter-spacing);
+  }
+  
+  .varadesktop .related-products {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 495px;
+    overflow: hidden;
+    background-image: url(https://c.animaapp.com/tuxLGKdc/img/background.svg);
+    background-size: 100% 100%;
+  }
+  
+  .varadesktop .products-content {
+    display: inline-flex;
+    flex-direction: column;
+    height: 442px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 60px;
+    position: absolute;
+    top: 73px;
+    left: 0;
+  }
+  
+  .varadesktop .products {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0px 15px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -9px;
+    margin-bottom: -9px;
+  }
+  
+  .varadesktop .product-card {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 360px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .varadesktop .product-image {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 35px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .varadesktop .img {
+    position: relative;
+    width: 300px;
+    height: 160px;
+    margin-top: -35px;
+    margin-bottom: -35px;
+    object-fit: cover;
+  }
+  
+  .varadesktop .title {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 32px;
+  }
+  
+  .varadesktop .text-wrapper-8 {
+    position: absolute;
+    width: 297px;
+    top: -1px;
+    left: 3px;
+    font-family: var(--card-heading-font-family);
+    font-weight: var(--card-heading-font-weight);
+    color: #000000;
+    font-size: var(--card-heading-font-size);
+    letter-spacing: var(--card-heading-letter-spacing);
+    line-height: var(--card-heading-line-height);
+    white-space: nowrap;
+    font-style: var(--card-heading-font-style);
+  }
+  
+  .varadesktop .tags-2 {
+    height: 26px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .varadesktop .text-wrapper-9 {
+    font-size: var(--small-font-size);
+    line-height: var(--small-line-height);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--small-font-family);
+    font-weight: var(--small-font-weight);
+    color: #000000;
+    letter-spacing: var(--small-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--small-font-style);
+  }
+  
+  .varadesktop .div-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 24px;
+  }
+  
+  .varadesktop .text-wrapper-10 {
+    position: absolute;
+    width: 289px;
+    top: -1px;
+    left: 3px;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: #000000;
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .varadesktop .button-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #fefefe;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #6f4e37;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .varadesktop .text-wrapper-11 {
+    position: absolute;
+    width: 776px;
+    top: 29px;
+    left: 15px;
+    font-family: var(--secondary-heading-font-family);
+    font-weight: var(--secondary-heading-font-weight);
+    color: #000000;
+    font-size: var(--secondary-heading-font-size);
+    letter-spacing: var(--secondary-heading-letter-spacing);
+    line-height: var(--secondary-heading-line-height);
+    white-space: nowrap;
+    font-style: var(--secondary-heading-font-style);
+  }
+  
+  .varadesktop .footer {
+    position: relative;
+    width: 1441px;
+    height: 270px;
+    margin-right: -1px;
+    background-color: #3c2a1e;
+  }
+  
+  .varadesktop .opening-hours {
+    position: absolute;
+    width: 448px;
+    height: 154px;
+    top: 53px;
+    left: 17px;
+    overflow: hidden;
+  }
+  
+  .varadesktop .line {
+    position: absolute;
+    width: 448px;
+    height: 2px;
+    top: 40px;
+    left: 0;
+  }
+  
+  .varadesktop .text-wrapper-12 {
+    position: absolute;
+    width: 233px;
+    top: -1px;
+    left: 0;
+    font-family: var(--secondary-heading-font-family);
+    font-weight: var(--secondary-heading-font-weight);
+    color: #fefefe;
+    font-size: var(--secondary-heading-font-size);
+    letter-spacing: var(--secondary-heading-letter-spacing);
+    line-height: var(--secondary-heading-line-height);
+    white-space: nowrap;
+    font-style: var(--secondary-heading-font-style);
+  }
+  
+  .varadesktop .text {
+    position: absolute;
+    width: 448px;
+    top: 51px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: #ffffff;
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    font-style: var(--body-font-style);
+  }
+  
+  .varadesktop .contact {
+    position: absolute;
+    width: 448px;
+    height: 154px;
+    top: 53px;
+    left: 496px;
+    overflow: hidden;
+  }
+  
+  .varadesktop .text-wrapper-13 {
+    position: absolute;
+    width: 424px;
+    top: -1px;
+    left: 0;
+    font-family: var(--secondary-heading-font-family);
+    font-weight: var(--secondary-heading-font-weight);
+    color: #fefefe;
+    font-size: var(--secondary-heading-font-size);
+    letter-spacing: var(--secondary-heading-letter-spacing);
+    line-height: var(--secondary-heading-line-height);
+    white-space: nowrap;
+    font-style: var(--secondary-heading-font-style);
+  }
+  
+  .varadesktop .other {
+    position: absolute;
+    width: 448px;
+    height: 154px;
+    top: 53px;
+    left: 975px;
+    overflow: hidden;
+  }
+  
+  .varadesktop .copyright {
+    position: absolute;
+    width: 930px;
+    height: 38px;
+    top: 232px;
+    left: 255px;
+  }
+  
+  .varadesktop .overlap-group {
+    position: relative;
+    height: 37px;
+  }
+  
+  .varadesktop .line-2 {
+    position: absolute;
+    width: 930px;
+    height: 1px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .varadesktop .text-wrapper-14 {
+    position: absolute;
+    width: 930px;
+    height: 37px;
+    top: 0;
+    left: 0;
+    font-family: var(--small-font-family);
+    font-weight: var(--small-font-weight);
+    color: #ffffff;
+    font-size: var(--small-font-size);
+    text-align: center;
+    letter-spacing: var(--small-letter-spacing);
+    line-height: var(--small-line-height);
+    font-style: var(--small-font-style);
+  }
+  
+  .varadesktop .navigation {
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    top: 0;
+    left: 0;
+  }
+  
+  .varadesktop .logo-container {
+    position: absolute;
+    width: 389px;
+    height: 60px;
+    top: 0;
+    left: 0;
+  }
+  
+  .varadesktop .logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .varadesktop .text-wrapper-15 {
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    top: -1px;
+    left: 55px;
+    font-family: "Lora", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+  
+  .varadesktop .search {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    top: 0;
+    left: 495px;
+  }
+  
+  .varadesktop .overlap-group-2 {
+    position: relative;
+    height: 40px;
+    top: 10px;
+    background-color: #fefefe;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .varadesktop .vector {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 419px;
+  }
+  
+  .varadesktop .text-wrapper-16 {
+    position: absolute;
+    width: 328px;
+    height: 25px;
+    top: 5px;
+    left: 5px;
+    opacity: 0.6;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--black-coffee);
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .varadesktop .cart {
+    width: 60px;
+    height: 60px;
+    left: 1380px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .varadesktop .overlap {
+    width: 37px;
+    top: 15px;
+    left: 8px;
+    position: relative;
+    height: 37px;
+  }
+  
+  .varadesktop .cart-icon {
+    width: 30px;
+    height: 30px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .varadesktop .cart-count {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 17px;
+    left: 0;
+    background-color: #6f4e37;
+    border-radius: 10px;
+  }
+  
+  .varadesktop .text-wrapper-17 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    left: 0;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: #fefefe;
+    font-size: var(--body-font-size);
+    text-align: center;
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
+  
+  .varadesktop .categories {
+    display: flex;
+    width: 330px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 975px;
+  }
+  
+  .varadesktop .text-wrapper-18 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: #000000;
+    font-size: var(--body-font-size);
+    text-align: center;
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  }
