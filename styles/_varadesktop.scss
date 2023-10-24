@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     width: 1440px;
-    height:77%;
+    height: 85%;
     align-items: flex-start;
     position: absolute;
     top: 106px;
@@ -191,7 +191,7 @@
   
   .varadesktop .eiginleikar {
     position: relative;
-    width: 930px;
+    width: 100%;
     margin-top: -1px;
     font-family: "Lato", Helvetica;
     font-weight: 400;
@@ -207,6 +207,7 @@
   }
   
   .varadesktop .text-wrapper-5 {
+    padding-top:3%;
     font-size: 32px;
     line-height: 48px;
   }
@@ -218,6 +219,8 @@
   }
   
   .varadesktop .text-wrapper-7 {
+    display: flex;
+    padding-bottom: 3%;
     font-size: var(--large-body-font-size);
     line-height: var(--large-body-line-height);
     font-family: var(--large-body-font-family);
@@ -233,7 +236,6 @@
     height:31%;
     overflow: hidden;
     background-image: url(https://c.animaapp.com/tuxLGKdc/img/background.svg);
-    background-size: 100% 102%;
   }
   
   .varadesktop .products-content {
