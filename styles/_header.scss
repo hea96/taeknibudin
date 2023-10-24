@@ -1,3 +1,19 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
 header {
     position: relative;
     width: 100%;
@@ -80,52 +96,21 @@ header {
     }
 
     .cart {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-    
         .cart-icon {
-            background-image: url('/images/Cart\ icon.svg');
-            width: 30px;
-            height: 30px;
-            margin-right: 20px;
+            background-image: url('/images/Cart.png');
+            width: 50px;
+            height: 60px;   
+            margin-right: 10px;
             position: relative;  
+            background-repeat: no-repeat;  
+            background-size: cover;  
+            background-position: center; 
         }
-    
-        .cart-count {
-            background: #6F4E37;
-            padding: 3px 7px;
-            border-radius: 50%;
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            color: #FEFEFE;
-            position: absolute;
-            bottom: 5px;
-            left: 1460px;
-            z-index: 1;
-        }
+
     }
     .hamburger{
         background-image: url('/images/Vector.svg');
     }
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-}
-
-
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
-
-body {
-    min-height: 100vh;
-    overflow-x: hidden;
 }
 
 
@@ -144,7 +129,7 @@ body {
     height: 100vh; 
     left: 0;
     top: 0;
-    background: url('/images/Background.jpg') no-repeat center center/cover; /* This will cover the entire container */
+    background: url('/images/Background.jpg') no-repeat center center/cover; 
     background-color: white;
 }
 
