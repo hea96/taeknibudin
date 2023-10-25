@@ -537,6 +537,7 @@ footer p {
   gap: var(--vertical-space);
   width: var(--width-offset);
   max-width: var(--max-width);
+  min-width: 320px;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -877,6 +878,30 @@ footer p {
   position: relative;
   white-space: nowrap;
   width: fit-content;
+}
+
+@media (max-width: 1000px) {
+  .div-2 {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .inputs {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  .product {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .products {
+    padding: 0 10px;
+  }
+  .product {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
