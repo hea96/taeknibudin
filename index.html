@@ -24,15 +24,31 @@
             <a href="pages/vorulisti.html" class="category">Allar vörur</a>
         </nav>
         <div class="cart">
-            <div class="cart-count">1</div>
-            <div class="cart-icon"></div>
+            <a href="pages/pontunarsida.html" class="cart-link">
+                <div class="cart-icon"></div>
+            </a>
         </div> 
         <div class="mobile-controls">
             <div class="cart-container">
-                <div class="cart-icon"></div>
-                <div class="cart-count">1</div>
+                <a href="pages/pontunarsida.html" class="cart-link">
+                    <div class="cart-icon"></div>
+                </a>
             </div>
-            <div class="hamburger"></div>
+            <div class="hamburger">
+                <input type="checkbox" id="menuToggle" />
+                <label for="menuToggle"></label>
+                <div class="dropdown-content">
+                    <ul class="menu">
+                        <li><a href="pages/vorulisti.html">Nýjar vörur</a></li>
+                        <li><a href="pages/vara.html">Tilboðs vörur</a></li>
+                        <li><a href="pages/vorulisti.html">Allar vörur</a></li>
+                    </ul>
+                    <div class="search1">
+                        <input type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl.">
+                        <div class="search-icon1"></div>
+                    </div>
+                </div>
+            </div>            
         </div>
     </header>
     <section class="promo">
@@ -115,16 +131,18 @@
 
     <section class="content">
         <div class="content-new-cta">
-            <div class="photo1"></div>
-            <div class="text-container">
-                <h2 class="main-heading">Stærsta vöruhús á Íslandi</h2>
-        
-                <p class="description">
-                    Vöruhúsið okkar er það stærsta á Íslandi og með fullt af vörum útum allt risus quis risus mattis sollicitudin. Donec egestas justo orci, in egestas quam molestie id. 
-                </p>
-        
-                <div class="btn">
-                    <span class="btn-text">SKOÐA ALLAR VÖRUR</span>
+            <div class="inner-container2">
+                <div class="photo1"></div>
+                <div class="text-container2">
+                    <h2 class="main-heading">Stærsta vöruhús á Íslandi</h2>
+            
+                    <p class="description">
+                        Vöruhúsið okkar er það stærsta á Íslandi og með fullt af vörum útum allt risus quis risus mattis sollicitudin. Donec egestas justo orci, in egestas quam molestie id. 
+                    </p>
+            
+                    <div class="btn">
+                        <span class="btn-text">SKOÐA ALLAR VÖRUR</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,17 +204,26 @@
     </section>
     <div class="section-fill"></div>
     <footer>
-        <div class="opening-hours">
-            <h3>Opnunartími</h3>
-            <!-- Other details here -->
-        </div>
-        <div class="contact">
-            <h3>Hafðu samband</h3>
-            <!-- Other details here -->
-        </div>
-        <div class="other">
-            <h3>Annað</h3>
-            <!-- Other details here -->
+        <section class="footer-section">
+            <h2>OPNUNARTÍMI</h2>
+            <p>Opið alla virka daga frá 9:00-18:00</p>
+            <p>Opið á laugardögum frá 12:00-16:00</p>
+            <p>Lokað á sunnudögum</p>
+        </section>
+        <section class="footer-section">
+            <h2>HAFÐU SAMBAND</h2>
+            <p>Skiptiborð: 234-4568 </p>
+            <p>Tölvupóstur: thjonusta@example.org</p>
+        </section>
+        <section class="footer-section">
+            <h2>ANNAÐ</h2>
+            <p>Rekja sendingu</p>
+            <p>Skilaréttur</p>
+            <p>Um okkur</p>
+            <p>Störf</p>
+        </section>
+        <div class="footer-bottom">
+            <p>© 2023 TÆKNIBÚÐIN — Allur réttur áskilinn</p>
         </div>
     </footer>
 </body>
