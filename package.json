@@ -24,5 +24,8 @@
     "concurrently": "^8.2.1",
     "sass": "^1.69.3",
     "stylelint": "^15.10.3"
+  },
+  "dependencies": {
+    "lint": "^0.8.19"
   }
 }
