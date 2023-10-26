@@ -1,5 +1,5 @@
 .varadesktop {
-    background-color: #ffffff;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,7 +7,7 @@
   }
   
   .varadesktop .div {
-    background-color: #ffffff;
+    background-color: #fff;
     overflow: hidden;
     width: 1440px;
     height: 2068px;
@@ -43,9 +43,9 @@
     width: 686px;
     top: -1px;
     left: 734px;
-    font-family: "Lato", Helvetica;
+    font-family: Lato, sans-serif;
     font-weight: 400;
-    color: #000000;
+    color: #000;
     font-size: 60px;
     letter-spacing: 0;
     line-height: 80px;
@@ -92,7 +92,7 @@
     margin-top: -1px;
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
-    color: #000000;
+    color: #000;
     letter-spacing: var(--body-letter-spacing);
     white-space: nowrap;
     font-style: var(--body-font-style);
@@ -105,7 +105,7 @@
     left: 735px;
     font-family: var(--large-body-font-family);
     font-weight: var(--large-body-font-weight);
-    color: #000000;
+    color: #000;
     font-size: var(--large-body-font-size);
     letter-spacing: var(--large-body-letter-spacing);
     line-height: var(--large-body-line-height);
@@ -123,7 +123,7 @@
   .buttonadd {
     height:fit-content;
     width: 399px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: 2px;
     border-color:#e1cec2;
   }
@@ -142,9 +142,9 @@
     width: 289px;
     top: -1px;
     left: 3px;
-    font-family: "Lato", Helvetica;
+    font-family: Lato, sans-serif;
     font-weight: 700;
-    color: #000000;
+    color: #000;
     font-size: 20px;
     letter-spacing: 0;
     line-height: 32px;
@@ -171,7 +171,7 @@
     position: relative;
     width: fit-content;
     margin-top: -1px;
-    font-family: "Lato-Bold", Helvetica;
+    font-family: Lato-Bold, sans-serif;
     font-weight: 700;
     color: #3c2a1e;
     font-size: 14px;
@@ -197,9 +197,9 @@
     position: relative;
     width: 100%;
     margin-top: -1px;
-    font-family: "Lato", Helvetica;
+    font-family: Lato, sans-serif;
     font-weight: 400;
-    color: #000000;
+    color: #000;
     font-size: 36px;
     letter-spacing: 0;
     line-height: 36px;
@@ -239,7 +239,7 @@
     width: 100%;
     height:24%;
     overflow: hidden;
-    background-image: url(https://c.animaapp.com/tuxLGKdc/img/background.svg);
+    background-image: url'(https://c.animaapp.com/tuxLGKdc/img/background.svg)';
   }
   
   .varadesktop .products-content {
@@ -248,7 +248,7 @@
     height: 442px;
     align-items: center;
     justify-content: center;
-    padding: 40px 0px 60px;
+    padding: 40px 0 60px;
     position: absolute;
     top: 73px;
     left: 0;
@@ -258,7 +258,7 @@
     display: inline-flex;
     align-items: flex-start;
     gap: 30px;
-    padding: 0px 15px;
+    padding: 0 15px;
     position: relative;
     flex: 0 0 auto;
     margin-top: -9px;
@@ -274,7 +274,7 @@
     justify-content: space-between;
     padding: 15px;
     position: relative;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 5px;
     overflow: hidden;
   }
@@ -286,7 +286,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-    padding: 35px 0px;
+    padding: 35px 0;
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -315,7 +315,7 @@
     left: 3px;
     font-family: var(--card-heading-font-family);
     font-weight: var(--card-heading-font-weight);
-    color: #000000;
+    color: #000;
     font-size: var(--card-heading-font-size);
     letter-spacing: var(--card-heading-letter-spacing);
     line-height: var(--card-heading-line-height);
@@ -341,7 +341,7 @@
     margin-top: -1px;
     font-family: var(--small-font-family);
     font-weight: var(--small-font-weight);
-    color: #000000;
+    color: #000;
     letter-spacing: var(--small-letter-spacing);
     white-space: nowrap;
     font-style: var(--small-font-style);
@@ -361,7 +361,7 @@
     left: 3px;
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
-    color: #000000;
+    color: #000;
     font-size: var(--body-font-size);
     letter-spacing: var(--body-letter-spacing);
     line-height: var(--body-line-height);
@@ -375,7 +375,6 @@
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
-    display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
@@ -396,7 +395,7 @@
     left: 15px;
     font-family: var(--secondary-heading-font-family);
     font-weight: var(--secondary-heading-font-weight);
-    color: #000000;
+    color: #000;
     font-size: var(--secondary-heading-font-size);
     letter-spacing: var(--secondary-heading-letter-spacing);
     line-height: var(--secondary-heading-line-height);
@@ -451,7 +450,7 @@
     left: 0;
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
-    color: #ffffff;
+    color: #fff;
     font-size: var(--body-font-size);
     letter-spacing: var(--body-letter-spacing);
     line-height: var(--body-line-height);
@@ -521,7 +520,7 @@
     left: 0;
     font-family: var(--small-font-family);
     font-weight: var(--small-font-weight);
-    color: #ffffff;
+    color: #fff;
     font-size: var(--small-font-size);
     text-align: center;
     letter-spacing: var(--small-letter-spacing);
@@ -559,9 +558,9 @@
     height: 60px;
     top: -1px;
     left: 55px;
-    font-family: "Lora", Helvetica;
+    font-family: Lora, sans-serif;
     font-weight: 700;
-    color: #000000;
+    color: #000;
     font-size: 40px;
     letter-spacing: 0;
     line-height: 40px;
@@ -582,7 +581,7 @@
     background-color: #fefefe;
     border-radius: 5px;
     border: 1px solid;
-    border-color: #000000;
+    border-color: #000;
   }
   
   .varadesktop .vector {
@@ -677,7 +676,7 @@
     width: fit-content;
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
-    color: #000000;
+    color: #000;
     font-size: var(--body-font-size);
     text-align: center;
     letter-spacing: var(--body-letter-spacing);

@@ -4,37 +4,46 @@ $spacing: 15px;
     .card{
         display: flex;
         flex-direction: column;
-        background-color: white;
-        width: 330px;
-        height: 360px;
+        background-color: #fff;
+        width: 300px;
+        height: 330px;
         justify-content: space-between;
         margin: $spacing;
         padding: $spacing;
         grid-column: span 12;
-        .btn-product{
-            height: 44px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-color: rgba(111, 78, 55, 1);
-            border-radius: 5px;
-        }
+    }
+
+    h3{
+        margin: 0;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    .btn-product{
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-color: rgba(111, 78, 55, 100%);
+        border-radius: 5px;
     }
 }
 
-@media (min-width: 660px) {
+@media (min-width: 730px) {
     .vorulisti-content .card{
         grid-column: span 6;
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
     .vorulisti-content .card{
         grid-column: span 4;
     }
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1399px) {
     .vorulisti-content .card{
         grid-column: span 3;
     }

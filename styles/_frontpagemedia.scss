@@ -124,27 +124,27 @@ header .mobile-controls {
     }
 
 
-    section.content .inner-container {
+    .content .inner-container {
         flex-direction: column; 
     }
 
-    section.content .photo,
-    section.content .photo1 {
+    .content .photo,
+    .content .photo1 {
         margin: 10px 0; 
     }
 
-    section.promo {
+    .promo {
         height: 300px;
         width: 501px;
     }
 
-    section.promo h2 {
+    .promo h2 {
         margin-top: 20px;
         font-size: 5rem; 
         text-align: center;
     }
 
-    section.promo p {
+    .promo p {
         font-size: 2rem; 
         text-align: center;
         margin-top: -60px;
@@ -203,7 +203,7 @@ header .mobile-controls {
         max-width: 100%;
     }
 
-    section.content .description {
+    .content .description {
         text-align: center;
         padding: 0 10px; 
     }
@@ -247,11 +247,11 @@ header .mobile-controls {
         height: auto; 
     }
 
-    section.featured-products{
+    .featured-products{
         background-image: url('/images/BeigeBackgroundMobile.jpg');
     }
 
-    section.featured-products2{
+    .featured-products2{
         background-image: url('/images/BeigeBackgroundMobile.jpg');
     }
 

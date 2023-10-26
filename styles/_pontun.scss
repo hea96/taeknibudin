@@ -3,7 +3,6 @@
   grid-template-rows: auto;
   grid-template-columns: 100%;
   gap: var(--vertical-space);
-
   width: var(--width-offset);
   max-width: var(--max-width);
   min-width: 320px;
@@ -20,7 +19,7 @@
 }
 
 .pntun .text-wrapper {
-  color: #000000;
+  color: #000;
   font-family: var(--secondary-heading-font-family);
   font-size: var(--secondary-heading-font-size);
   font-style: var(--secondary-heading-font-style);
@@ -62,7 +61,7 @@
 
 .pntun .text {
   align-self: stretch;
-  color: #000000;
+  color: #000;
   font-family: var(--large-body-font-family);
   font-size: var(--large-body-font-size);
   font-style: var(--large-body-font-style);
@@ -79,11 +78,20 @@
   align-self: stretch;
   background-color: #fefefe;
   border: 1px solid;
-  border-color: #000000;
+  border-color: #000;
   border-radius: 5px;
   height: 40px;
   position: relative;
   width: 100%;
+}
+
+.karfa {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  width: 690px;
 }
 
 .pntun .karfa {
@@ -123,7 +131,7 @@
   gap: 10px;
   height: 84px;
   justify-content: space-around;
-  padding: 35px 0px;
+  padding: 35px 0;
   position: relative;
   width: 90px;
 }
@@ -149,7 +157,7 @@
 }
 
 .pntun .text-wrapper-2 {
-  color: #000000;
+  color: #000;
   font-family: var(--card-heading-font-family);
   font-size: var(--card-heading-font-size);
   font-style: var(--card-heading-font-style);
@@ -192,8 +200,8 @@
 }
 
 .pntun .text-wrapper-3 {
-  color: #000000;
-  font-family: "Lato-Bold", Helvetica;
+  color: #000;
+  font-family: Lato-Bold, sans-serif;
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 0;
@@ -202,15 +210,6 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
-}
-
-.karfa {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  position: relative;
-  width: 690px;
 }
 
 .karfa .products {
@@ -241,7 +240,7 @@
   gap: 10px;
   height: 84px;
   justify-content: space-around;
-  padding: 35px 0px;
+  padding: 35px 0;
   position: relative;
   width: 90px;
 }
@@ -267,7 +266,7 @@
 }
 
 .karfa .text-wrapper {
-  color: #000000;
+  color: #000;
   font-family: var(--card-heading-font-family);
   font-size: var(--card-heading-font-size);
   font-style: var(--card-heading-font-style);
@@ -310,8 +309,8 @@
 }
 
 .karfa .div {
-  color: #000000;
-  font-family: "Lato-Bold", Helvetica;
+  color: #000;
+  font-family: Lato-Bold, sans-serif;
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 0;
@@ -338,7 +337,7 @@
 }
 
 .button .text-wrapper {
-  color: #ffffff;
+  color: #fff;
   font-family: var(--large-body-font-family);
   font-size: var(--large-body-font-size);
   font-style: var(--large-body-font-style);
@@ -351,29 +350,20 @@
   width: fit-content;
 }
 
-@media (max-width: 1000px) {
-  .div-2 {
-      width: 100%; 
-  }
-}
-
-@media (max-width: 1000px) {
-  .inputs {
-      flex-direction: column; 
-  }
-}
-
-@media (max-width: 1000px) {
-  .product {
-      width: 100%; 
-  }
-}
-
-@media (max-width: 1000px) {
+@media (width <= 1000px) {
   .products {
       padding: 0 10px; 
   }
+  
   .product {
       width: 100%; 
+  }
+
+  .inputs {
+    flex-direction: column; 
+  }
+  
+  .div-2 {
+    width: 100%; 
   }
 }
