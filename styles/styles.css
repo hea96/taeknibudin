@@ -640,6 +640,9 @@ footer p {
 }
 .vorulisti-content {
   background-color: rgb(225, 206, 194);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-items: center;
 }
 .vorulisti-content .products {
   padding: 0;
@@ -1800,6 +1803,42 @@ a {
   line-height: var(--body-line-height);
   white-space: nowrap;
   font-style: var(--body-font-style);
+}
+
+.vorulisti-content .card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 330px;
+  height: 360px;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 15px;
+  grid-column: span 12;
+}
+.vorulisti-content .card .btn-product {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: rgb(111, 78, 55);
+  border-radius: 5px;
+}
+
+@media (min-width: 660px) {
+  .vorulisti-content .card {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1000px) {
+  .vorulisti-content .card {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 1350px) {
+  .vorulisti-content .card {
+    grid-column: span 3;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

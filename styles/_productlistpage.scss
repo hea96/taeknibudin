@@ -11,6 +11,9 @@ $color-background: rgb(225, 206, 194);
 
 .vorulisti-content {
     background-color: $color-background;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-items: center;
     .products {
         padding: 0;
         padding-top: 25px;
