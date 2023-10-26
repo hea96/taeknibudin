@@ -32,17 +32,32 @@
             <a href="./vorulisti.html" class="category">Allar vörur</a>
         </nav>
         <div class="cart">
-          <a href="./pontunarsida.html" class="cart-link">
+          <a href="./pontunarsida.html" class="cart-link" aria-label="Checkout">
           <div class="cart-icon"></div>
           </a>
         </div> 
         <div class="mobile-controls">
-            <div class="cart-container">
-                <div class="cart-icon"></div>
-                <div class="cart-count">1</div>
-            </div>
-            <div class="hamburger"></div>
-        </div>
+          <div class="cart-container">
+              <a href="./pontunarsida.html" class="cart-link" aria-label="Checkout">
+                  <div class="cart-icon"></div>
+              </a>
+          </div>
+          <div class="hamburger">
+              <input type="checkbox" id="menuToggle" />
+              <label for="menuToggle"></label>
+              <div class="dropdown-content">
+                  <ul class="menu">
+                      <li><a href="./vorulisti.html">Nýjar vörur</a></li>
+                      <li><a href="./vara.html">Tilboðs vörur</a></li>
+                      <li><a href="./vorulisti.html">Allar vörur</a></li>
+                  </ul>
+                  <div class="search1">
+                      <input type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl.">
+                      <div class="search-icon1"></div>
+                  </div>
+              </div>
+          </div>            
+      </div>
     </header>
 
     <div class="varadesktop">
@@ -53,6 +68,7 @@
             <img
               class="alexandre-debieve"
               src="/images/alexandre-debieve-FO7JIlwjOtU-unsplash 1.jpg"
+              alt =""
             />
             
           <div class "upplvara">
@@ -115,6 +131,7 @@
                     <img
                       class="img"
                       src="../images/alex-knight-2EJCSULRwC8-unsplash 1.jpg"
+                      alt=""
                     />
                   </div>
                   <div class="title"><div class="text-wrapper-8">Vinalegur vinnuróbot</div></div>
@@ -130,6 +147,7 @@
                     <img
                       class="img"
                       src="../images/markus-spiske-iar-afB0QQw-unsplash 1.jpg"
+                      alt=""
                     />
                   </div>
                   <div class="title"><div class="text-wrapper-8">Matrixið</div></div>
