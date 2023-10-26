@@ -32,19 +32,31 @@
             <a href="./vorulisti.html" class="category">Allar vörur</a>
         </nav>
         <div class="cart">
-            <a href="./pontunarsida.html" class="cart-link">
+            <a href="./pontunarsida.html" class="cart-link" aria-label="Checkout">
             <div class="cart-icon"></div>
             </a>
         </div> 
         <div class="mobile-controls">
-            <a href="vorulisti" style="text-decoration: none; color: inherit; flex: 1 0 22%;">
             <div class="cart-container">
-                <div class="cart-icon"></div>
-                <div class="cart-count">1</div>
+                <a href="./pontunarsida.html" class="cart-link" aria-label="Checkout">
+                    <div class="cart-icon"></div>
+                </a>
             </div>
-        </a>
-            
-            <div class="hamburger"></div>
+            <div class="hamburger">
+                <input type="checkbox" id="menuToggle" />
+                <label for="menuToggle"></label>
+                <div class="dropdown-content">
+                    <ul class="menu">
+                        <li><a href="./vorulisti.html">Nýjar vörur</a></li>
+                        <li><a href="./vara.html">Tilboðs vörur</a></li>
+                        <li><a href="./vorulisti.html">Allar vörur</a></li>
+                    </ul>
+                    <div class="search1">
+                        <input type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl.">
+                        <div class="search-icon1"></div>
+                    </div>
+                </div>
+            </div>            
         </div>
     </header>
 
@@ -62,21 +74,21 @@
                                 <div class="div-2">
                                     <div class="input">
                                         <div class="text">Nafn</div>
-                                        <input type="text" class="input-field" />
+                                        <input type="text" class="input-field" aria-labelledby="Nafn" />
                                     </div>
                                     <div class="input">
                                         <div class="text">Netfang</div>
-                                        <input type="text" class="input-field" />
+                                        <input type="text" class="input-field" aria-labelledby="Netfang" />
                                     </div>
                                 </div>
                                 <div class="div-2">
                                     <div class="input">
                                         <div class="text">Kennitala</div>
-                                        <input type="text" class="input-field" />
+                                        <input type="text" class="input-field" aria-labelledby="Kennitala" />
                                     </div>
                                     <div class="input">
                                         <div class="text">Sími</div>
-                                        <input type="tel" class="input-field" />
+                                        <input type="tel" class="input-field" aria-labelledby="Símanúmer" />
                                     </div>
                                 </div>
                             </div>
@@ -87,11 +99,11 @@
                                 <div class="div-2">
                                     <div class="input">
                                         <div class="text">Heimilisfang</div>
-                                        <input type="text" class="input-field" />
+                                        <input type="text" class="input-field" aria-labelledby="address" />
                                     </div>
                                     <div class="input">
                                         <div class="text">Staður</div>
-                                        <input type="text" class="input-field" />
+                                        <input type="text" class="input-field" aria-labelledby="location" />
                                     </div>
                                     <button class="button">
                                         <div class="text-wrapper">SENDA PÖNTUN</div>
@@ -100,11 +112,11 @@
                                 <div class="div-2">
                                     <div class="input">
                                         <div class="text">Póstnúmer</div>
-                                        <input type="text" class="input-field" />
+                                        <input type="text" class="input-field" aria-labelledby="zip" />
                                     </div>
                                     <div class="input">
                                         <div class="text">Athugasemd</div>
-                                        <textarea class="input-field"></textarea>
+                                        <textarea class="input-field" aria-labelledby="comment"></textarea>
                                     </div>
                                 </div>
                             </div>
