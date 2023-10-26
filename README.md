@@ -48,6 +48,8 @@ _varadesktop.scss útlit á vörusíðu
 
 Þessar skrár eru svo importaðar í styles.scss, þýddar í css og þaðan vistaðar í styles.css 
 
+Notast var við chatGPT 3.5 í ríkulegum mæli við vinnslu verkefnisins.
+
 
 ## Hópmeðlimir
 ### Arnar Eyðunsson Simonsen
