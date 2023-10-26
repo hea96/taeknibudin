@@ -22,17 +22,29 @@ Síðunni er skipt upp í 4 undirsíður skrifaðar í html:
 Útlit er svo útfært með scss, skipt niður í eftirfarandi scss skrár til að auðveldara sé að halda utan um vinnuna:
 
 _card.scss útlit á product card í vörulista
+
 _footer.scss útlit á footer
+
 _frontpagecontent.scss útlit á forsíðu
+
 _frontpagemedia.scss útlit á myndum á forsíðu
+
 _frontpageproduct.scss útlit á vörum á forsíðu
+
 _frontpageproduct1.scss útlit á vöru á forsíðu
+
 _globals.scss rótarstillingar
+
 _header.scss útlit á header
+
 _pontun.scss útlit á pöntunarsíðu
+
 _productlistpage.scss útlit á vörulistasíðu
+
 _styleguidevara.scss rótarstillingar fyrir útlit á vörusíðu
+
 _varadesktop.scss útlit á vörusíðu
+
 
 Þessar skrár eru svo importaðar í styles.scss, þýddar í css og þaðan vistaðar í styles.css 
 
